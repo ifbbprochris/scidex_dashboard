@@ -6,7 +6,7 @@
   "license": "ISC",
   "main": "index.js",
   "scripts": {
-    "build:webpack": "NODE_ENV=production webpack --config webpack.config.prod.js",
+    "build:webpack": "NODE_ENV=development webpack --config webpack.config.dev.js",
     "build": "npm run clean && npm run build:webpack",
     "start": "npm run build && node devServer.js",
     "clean": "rimraf dist"
