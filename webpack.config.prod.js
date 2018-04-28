@@ -9,7 +9,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/static/'
+    publicPath: 'https://scidexbashboard.azurewebsites.net/'
   },
   plugins: [
     new webpack.DefinePlugin({
