@@ -10,7 +10,7 @@
     "build": "npm run clean && npm run build:webpack",
     "start": "npm install && npm run build:production && node server.js",
     "clean": "rimraf dist",
-    "build:production":"NODE_ENV=production webpack --config webpack.config.prod.js",
+    "build:production":"NODE_ENV=production webpack --config webpack.config.prod.js"
   },
   "dependencies": {
     "axios": "^0.18.0",
