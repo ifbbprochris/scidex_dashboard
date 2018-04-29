@@ -10,7 +10,7 @@
     "build": "npm run clean && npm run build:webpack",
     "start": "npm install && npm run build:production && node server.js",
     "clean": "rimraf dist",
-    "build:production":"NODE_ENV=production webpack --config webpack.config.prod.js"
+    "build:production": "NODE_ENV=production webpack --config webpack.config.prod.js"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -31,7 +31,6 @@
     "express": "^4.13.4",
     "raven-js": "^2.3.0",
     "react": "^16.0.0",
-    "react-addons-css-transition-group": "^15.6.2",
     "react-autocomplete": "^1.8.1",
     "react-dom": "^16.0.0",
     "react-redux": "^4.4.5",
@@ -55,5 +54,8 @@
     "expect-jsx": "^2.5.1",
     "mocha": "^2.4.5",
     "url-loader": "^1.0.1"
+  },
+  "engines": {
+    "node": "^8.0"
   }
 }
